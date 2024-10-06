@@ -26,8 +26,7 @@ const config = convict({
     uri: {
       doc: "Database host uri",
       format: String,
-      default:
-        "mongodb+srv://faisalamin:eDDbb1OQ8cWnUsj1@url-shortener-cluster.zia7erq.mongodb.net/?retryWrites=true&w=majority&appName=url-shortener-cluster",
+      default: "uri"
       env: "DATABASE_HOST",
     },
     name: {
